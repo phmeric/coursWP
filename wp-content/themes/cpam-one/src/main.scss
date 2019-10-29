@@ -1,0 +1,17 @@
+/**
+* @name main.scss
+* @author Vaélia
+* @version 1.0.0
+**/
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+$table-main-color: rgba(175,128,128,1);
+table {
+    &.table {
+        td {
+            &.configuration-title {
+                color: $table-main-color;
+                background: darken($table-main-color, 30%);
+            }
+        }
+    }
+}
